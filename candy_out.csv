@@ -1,0 +1,501 @@
+Internal ID,Q1: GOING OUT?,Q2: GENDER,Q3: AGE,Q4: COUNTRY,"Q5: STATE, PROVINCE, COUNTY, ETC",Q6 | 100 Grand Bar
+90258773,N/A,N/A,N/A,N/A,N/A,N/A
+90272821,No,Male,44,USA ,NM,MEH
+90272829,N/A,Male,49,USA,Virginia,N/A
+90272840,No,Male,40,us,or,MEH
+90272841,No,Male,23,usa,exton pa,JOY
+90272852,No,Male,N/A,N/A,N/A,JOY
+90272853,No,Male,53,usa,Colorado ,N/A
+90272854,No,Male,33,canada,ontario,JOY
+90272858,No,Male,40,Canada,Ontario,JOY
+90272859,No,Female,53,Us,Wa,MEH
+90272861,Yes,Male,43,N/A,N/A,N/A
+90272865,No,Male,56,Canada,Quebec,JOY
+90272866,No,Male,64,US,NY,MEH
+90272867,Yes,Male,43,Murica,California,JOY
+90272868,No,Female,37,Canada,Ontario,MEH
+90272878,No,Male,64,USA,Texas,JOY
+90272880,No,I'd rather not say,59,USA,NEW YORK,JOY
+90272881,No,Male,48,US,CO,MEH
+90272883,No,Female,54,United States,IN,N/A
+90272884,No,Female,36,United States,MN,N/A
+90272885,No,Male,45,uk,aberdeenshire,N/A
+90272886,Yes,Male,33,Canada,Alberta,MEH
+90272887,Yes,Male,37,United States,"Wisconsin, 53705",MEH
+90272891,No,Female,49,United States,RI,JOY
+90272892,No,Male,48,United States,NC,N/A
+90272894,No,Male,25,United Kingdom,Scotland,N/A
+90272895,No,Male,34,united states,minnesota,MEH
+90272897,No,Male,35,USA,Michigan,JOY
+90272898,Yes,Male,38,United States,Florida,N/A
+90272899,No,Male,58,USA,New Jersey,JOY
+90272900,No,Male,48,United States,VA,N/A
+90272901,No,Male,35,USA,Colorado,JOY
+90272903,Yes,Male,50,USA,"Los Angeles, California",JOY
+90272904,No,Female,33,Usa,Michigan,JOY
+90272905,No,Male,47,USA,CA,MEH
+90272906,No,Male,16,United States ,New York ,N/A
+90272909,N/A,N/A,N/A,N/A,N/A,N/A
+90272913,No,Male,52,United States,"Chicago, Illinois",JOY
+90272917,No,Male,33,Usa,Nj,N/A
+90272919,No,Male,63,United States,Wisconsin,JOY
+90272920,No,Male,34,United States,MN,N/A
+90272924,No,Female,48,United staes,Minnesota ,JOY
+90272926,No,Male,52,United Kingdom,N/A,N/A
+90272927,No,Male,52,United Kingdom,London,N/A
+90272930,N/A,Male,65,US,New Jersey,DESPAIR
+90272933,No,Female,45,usa,mn,JOY
+90272934,No,Male,41,USA,TEXAS,JOY
+90272935,No,Male,27,USA,NY,N/A
+90272936,No,Female,47,Usa,Illinois,N/A
+90272939,No,Male,47,United States,Texas,JOY
+90272940,No,Male,44,United States of America,District of Columbia,MEH
+90272944,No,Male,49,United States,Washington,MEH
+90272945,N/A,Male,31,United States,Massachusetts ,JOY
+90272947,No,Male,59,US,OR,DESPAIR
+90272948,No,Female,50,United States,Illinois,MEH
+90272954,Yes,Male,34,United States,Montana,N/A
+90272960,No,Male,34,USA,New York,JOY
+90272961,No,Male,61,usa,massachusetts,MEH
+90272962,No,Female,44,Canada,Alberta,MEH
+90272963,No,Male,46,UAE,Abu Dhabi,MEH
+90272966,No,Male,54,USA,TX,JOY
+90272969,No,Male,56,Canada,Alberta,N/A
+90272970,No,Male,43,USA,Arizona,N/A
+90272975,N/A,Male,41,USA ,Dc,MEH
+90272976,No,Female,46,USA,TX,JOY
+90272978,No,Female,50,USA,CA,JOY
+90272983,No,Female,42,Usa,Wa,N/A
+90272984,No,Female,62,USA,MN,N/A
+90272985,No,Male,37,USA,VA,JOY
+90272986,N/A,Male,45,USA,Illinois,JOY
+90272991,No,Male,53,USA,Florida,JOY
+90272994,No,Female,62,USA,MN,MEH
+90272995,No,Female,40,Canada,yukon,MEH
+90272996,Yes,Female,40,United States ,Pennsylvania ,JOY
+90273000,No,Male,29,USA,MD,JOY
+90273001,N/A,Male,33,United States,Virginia,JOY
+90273002,No,Male,34,United States,Ohio,N/A
+90273005,No,Female,42,Canada,Alberta ,MEH
+90273007,No,Male,48,USA,Texas,N/A
+90273008,No,Male,39,England,OXFORDSHIRE,N/A
+90273011,No,Male,36,United States,minnesota,DESPAIR
+90273016,No,Male,38,USA,DC,JOY
+90273017,No,Female,32,USA,Iowa,JOY
+90273019,No,Male,48,Usa,Mn,JOY
+90273021,N/A,Male,33,USA,Texas,N/A
+90273023,No,Female,38,United States,TN,JOY
+90273027,No,Male,37,UK,N/A,N/A
+90273028,No,Male,44,United States,Ohio,JOY
+90273032,No,Male,31,United States,Ohio,N/A
+90273037,No,Male,48,Canada,BC,N/A
+90273043,No,Male,37,United Kingdom,N/A,JOY
+90273045,No,Male,28,United States,Maryland,JOY
+90273046,No,Female,45,canada,ontario,JOY
+90273047,No,Male,42,USA,MI,MEH
+90273048,No,Male,69,USA,Wisconsin ,MEH
+90273049,No,Male,50,United States,Maryland,JOY
+90273050,No,Male,64,usa,alaska,N/A
+90273051,No,Male,42,Usa,Ny,N/A
+90273053,No,Female,35,USA,"Colorado, Jefferson county ",MEH
+90273055,No,Female,44,US,California,JOY
+90273056,N/A,N/A,N/A,N/A,N/A,N/A
+90273057,Yes,Male,44,United States,Louisiana,MEH
+90273058,No,Male,42,US,CO,JOY
+90273059,No,Male,43,Canada,Ontario,MEH
+90273060,No,Female,37,USA,DC,MEH
+90273061,No,Male,47,us,pa,JOY
+90273062,Yes,Female,50,US,Texas,MEH
+90273064,No,Male,67,USA,"CO, Larimer County",MEH
+90273069,No,Female,33,USA ,Nebraska ,JOY
+90273077,No,Female,39,United States,Oregon,JOY
+90273079,N/A,Male,30,canada ,ontario,MEH
+90273081,Yes,Male,25,USA,UT,JOY
+90273082,No,Male,29,usa,ny,JOY
+90273086,No,Male,53,Usa,Mn,MEH
+90273088,No,Male,N/A,N/A,N/A,N/A
+90273089,No,Female,22,United States,Pennsylvania,MEH
+90273090,No,Female,50,USA,Wisconsin,JOY
+90273092,No,Female,44,USA,Washington,N/A
+90273094,No,Male,46,Canada,Ontario,MEH
+90273096,No,I'd rather not say,26,Mexico,CDMX,N/A
+90273100,Yes,Male,53,US,California,JOY
+90273103,No,I'd rather not say,N/A,N/A,N/A,N/A
+90273104,No,Female,41,USA,Minnesota ,N/A
+90273108,No,Female,62,United states,north carolina,MEH
+90273109,No,Male,48,United States,New York,JOY
+90273110,No,Male,49,United States ,Tennessee ,JOY
+90273116,Yes,Female,37,USA ,Michigan,DESPAIR
+90273118,Yes,Male,63,USA ,Texas ,N/A
+90273119,No,Male,54,USA,CA,MEH
+90273122,No,Female,51,us,minnesota,JOY
+90273124,N/A,Male,42,United states,Washington,N/A
+90273125,No,Male,70,USA,"Knox county, Tennessee",JOY
+90273127,No,Male,33,United States,MN,MEH
+90273130,No,Male,67,United States,New Mexico,JOY
+90273137,N/A,Female,65,USA,Maine,MEH
+90273138,No,Male,46,u.s.a.,maine,DESPAIR
+90273140,No,Male,48,United States,California,JOY
+90273142,No,Female,51,USA,Oregon,N/A
+90273146,No,Female,53,Canada,Ontario,N/A
+90273155,Yes,Male,42,United States,MI,N/A
+90273157,No,Male,44,USA,"Virginia, Arlington",MEH
+90273158,No,Female,37,USA,WA,MEH
+90273159,No,Female,43,USA,MN,JOY
+90273163,No,Male,53,US,MO,N/A
+90273164,No,Female,64,USA,MN,N/A
+90273171,Yes,Male,47,United States,Virginia,JOY
+90273175,No,Male,45,United States,Pennsylvania,N/A
+90273178,No,Male,38,United States,Illinois ,JOY
+90273180,No,Male,37,USA,OR,JOY
+90273181,Yes,Female,N/A,N/A,N/A,N/A
+90273185,No,I'd rather not say,33,USAUSAUSA,WA,JOY
+90273186,No,Female,43,United States,Illinois,MEH
+90273187,No,Male,36,Usa,Mi,N/A
+90273190,No,Male,34,United States,California,MEH
+90273193,No,Male,50,US,MA,N/A
+90273200,No,Female,50,Usa,Alaska,N/A
+90273203,No,Male,48,USA,"New York, NY",N/A
+90273204,No,Male,51,Usa,Il,JOY
+90273209,No,Male,43,USA,PA,N/A
+90273220,No,Female,54,USA,Oregon,JOY
+90273224,Yes,Male,38,United States ,New Hampshire ,JOY
+90273226,No,Male,38,USA ,Washington ,JOY
+90273228,No,Male,43,United States,Massachusetts,N/A
+90273230,No,Male,49,United States,Texas,N/A
+90273232,No,Male,53,USA,Georgia,JOY
+90273236,No,Male,45,United states,IL,MEH
+90273237,No,Female,37,US,California,N/A
+90273238,No,Female,35,united states,WA,JOY
+90273240,No,Male,28,USA,Michigan,MEH
+90273242,No,Male,41,Canada,BC,MEH
+90273245,No,Female,33,USA ,Oregon ,MEH
+90273247,No,Female,24,USA ,"Washington, Clark ",JOY
+90273248,No,I'd rather not say,50,USA,NE,JOY
+90273250,No,Female,61,USA,Ohio,MEH
+90273254,No,Male,38,USA ,Oklahoma,MEH
+90273255,No,Female,43,US,SC,N/A
+90273258,No,Male,36,United States,Illinois,JOY
+90273259,No,Male,36,United States,Nebraska,N/A
+90273260,No,Male,39,usa,mi,MEH
+90273263,No,Female,33,USA,Pennsylvania ,MEH
+90273269,No,Male,37,USA,Maryland,MEH
+90273270,No,Female,27,United States,Nevada,MEH
+90273277,No,Female,35,USA ,Colorado,N/A
+90273278,Yes,I'd rather not say,18,america,va,JOY
+90273280,No,Male,49,Usa,California ,MEH
+90273285,No,Male,45,canada,"vancouver, bc",N/A
+90273286,Yes,Female,34,United States,Oregon - but will be in Washington for Halloween,MEH
+90273287,N/A,N/A,N/A,N/A,N/A,N/A
+90273288,Yes,Female,38,Usa,Ri,JOY
+90273290,No,Female,N/A,35,Colorado,N/A
+90273291,No,Male,37,USA,"Washington, King",MEH
+90273292,No,Male,40,United States,Michigan,N/A
+90273295,No,Female,46,USA,NY,N/A
+90273297,No,Female,36,United States,Illinois,MEH
+90273298,No,Male,49,United States,CA,JOY
+90273299,No,Female,47,USA,Washington,JOY
+90273300,No,Male,25,france,N/A,JOY
+90273301,No,Male,41,USA ,Massachusetts ,JOY
+90273304,No,Female,40,United States of America ,Illinois ,JOY
+90273305,No,Female,37,United States,MA,MEH
+90273306,Yes,Male,19,USA ,IL,JOY
+90273307,No,Male,39,Usa,Ca,N/A
+90273313,N/A,Male,47,USA,Texas,JOY
+90273318,No,Male,Old enough,USA,California,JOY
+90273320,No,Male,31,United States of America,Texas,JOY
+90273321,Yes,Male,48,usa,mi,JOY
+90273325,No,Male,57,USA,California,JOY
+90273326,No,Male,53,usa,wa,JOY
+90273328,No,Male,60,USA,OR,N/A
+90273329,No,Female,66,USA,Ohio,MEH
+90273331,Yes,Male,45,USA,PA,MEH
+90273332,No,Male,27,United States,Illinois,JOY
+90273333,No,Male,56,usa,md,JOY
+90273334,Yes,Male,34,United States,Colorado,N/A
+90273335,No,Male,31,usa,new york,N/A
+90273336,No,Male,70,United States,Wisconsin,JOY
+90273344,No,Male,24,Usa,Rhode island,N/A
+90273345,Yes,Female,12,america,massachusetts,JOY
+90273348,No,Male,39,USA,"VT, Chittenden",MEH
+90273353,No,Male,32,United States,Michigan,JOY
+90273359,No,Male,52,United States of America,California,JOY
+90273369,No,Female,29,United States,California,JOY
+90273370,No,Male,38,USA,Washington,MEH
+90273371,No,Male,32,United States of America,Oregon,JOY
+90273375,No,Female,42,U.S.A.,North Carolina,JOY
+90273377,No,Male,54,usa,pennsylvania,JOY
+90273383,Yes,Male,38,Canada,Ontario,JOY
+90273384,Yes,Male,53,USA,PEnnsylvania,N/A
+90273385,No,Male,30,Canada,Alberta,N/A
+90273391,No,Female,34,United States,Alabama,MEH
+90273392,N/A,Female,40,US,GA,N/A
+90273393,No,Male,54,United States,Colorado,JOY
+90273394,No,Female,39,USA,"FL, Orange County",N/A
+90273397,No,Female,40,US,GA,MEH
+90273398,No,Male,32,United States,CA,MEH
+90273399,Yes,Male,33,UK,Nope,N/A
+90273404,N/A,Female,28,Us,Ca,N/A
+90273406,No,Male,30,canada,manitoba,N/A
+90273408,No,Male,62,USA,TX,JOY
+90273412,No,Male,31,usa,colorado,N/A
+90273413,No,Male,36,United States,Ohio,N/A
+90273417,No,Male,49,United States,California,N/A
+90273419,No,Male,38,finland,N/A,N/A
+90273420,N/A,Female,44,USA,California,JOY
+90273422,No,Female,44,Canada,BC,DESPAIR
+90273424,No,Male,52,USA,IL,MEH
+90273427,No,Male,51,USA,CA,MEH
+90273429,No,Male,Many,USA,California,MEH
+90273431,No,Male,52,USA,VA,JOY
+90273432,No,Female,37,united states,california ,MEH
+90273435,No,Male,57,United States,South Carolina,MEH
+90273436,No,Male,65,unhinged states,california,N/A
+90273440,No,Male,44,United States,UT,MEH
+90273442,No,Male,60,USA,MA,MEH
+90273444,No,Male,42,United States,Massachusetts,JOY
+90273447,No,Male,39,Mexico,Baja California,JOY
+90273450,No,Female,57,USA,IN,MEH
+90273457,No,Male,36,United States,Michigan,N/A
+90273459,No,Male,48,usa,CA,JOY
+90273461,No,Male,42,Usa,Mi,N/A
+90273463,No,Male,50,USA,California,JOY
+90273465,No,I'd rather not say,40,Usa,Massachusetts,JOY
+90273466,No,Male,43,Canada ,Alberta ,N/A
+90273468,No,Male,60,Usa,Ny,JOY
+90273470,No,Female,55,united states of america,illinois,JOY
+90273472,No,Male,40,USA,North Carolina,JOY
+90273474,No,Male,34,United States of America,California,JOY
+90273476,No,Male,56,USA,"Santa Cruz County, California",JOY
+90273479,Yes,Male,65,USA,MARYLAND,MEH
+90273482,No,Female,40,USA,Oregon,MEH
+90273490,No,Male,56,United States,Pennsylvania,MEH
+90273492,No,Female,59,USA,NJ,N/A
+90273499,No,Male,42,USA,Oregon,N/A
+90273500,No,Male,57,United States,North Dakota,JOY
+90273502,No,Male,31,United States,New York,N/A
+90273509,Yes,Female,12,USA,N/A,MEH
+90273514,No,Male,38,Canada,Quebec,MEH
+90273515,No,Male,32,USA,Michigan,N/A
+90273518,No,Female,45,US,CA,MEH
+90273519,Yes,Female,39,US,NC,JOY
+90273520,No,N/A,31,USA,N/A,N/A
+90273523,No,Male,40,Usa,Colorado ,MEH
+90273525,No,Male,48,USA,Texas,JOY
+90273526,No,Male,50,USA,Texas,JOY
+90273527,No,Male,28,USA ,Illinois ,N/A
+90273529,No,Female,51,Canada,BC,JOY
+90273533,No,Male,49,United States,CA,MEH
+90273535,No,Male,48,United States of America,Wisconsin,MEH
+90273537,No,Male,43,USA,Michigan,JOY
+90273539,No,Male,64,US of A,Pennsylvania,MEH
+90273547,No,Male,56,USA,Nevada,N/A
+90273549,No,Female,35,Usa,Mn,N/A
+90273550,No,I'd rather not say,52,United States,Pennsylvania,JOY
+90273551,No,Male,72,US,"Pennsylvania, Montgomery County",N/A
+90273552,No,Male,29,USA ,Astoria NY,N/A
+90273556,No,Male,32,United States of America,Texas,N/A
+90273558,No,Male,37,USA,NC,DESPAIR
+90273559,No,Female,42,USA,California,N/A
+90273564,No,Female,38,US,Nj,N/A
+90273565,No,Female,36,United States,Illinois,N/A
+90273567,No,Female,22,United States,Pennsylvania ,MEH
+90273572,No,Female,40,United States ,Michigan ,N/A
+90273574,Yes,Female,50,Usa,Louisiana,N/A
+90273583,No,Male,44,US,NY,DESPAIR
+90273584,Yes,Female,70,us,ca,N/A
+90273587,Yes,Male,45,Usa,Texas,N/A
+90273590,No,Male,52,Canada,Ontario,JOY
+90273591,No,Female,51,US,CA,JOY
+90273594,No,Female,47,US,IL,JOY
+90273596,No,Male,41,United States,Washington,JOY
+90273597,No,Male,38,United States ,Kansas ,MEH
+90273599,No,Male,38,USA,New York,JOY
+90273600,No,Female,52,canada,sk,N/A
+90273602,No,Male,43,USA,Nevada,JOY
+90273607,No,Male,35,Canada,Ontario,MEH
+90273609,No,Male,30,USA,Missouri,N/A
+90273610,No,Male,34,united states of america,Illinois,MEH
+90273612,Yes,Female,56,Usa,N/A,MEH
+90273613,No,Female,33,United States of America,North Carolina,MEH
+90273614,No,Female,34,Canada,Ontario,N/A
+90273615,No,Male,60,USA,NY,JOY
+90273623,No,Male,37,USA,Virginia,N/A
+90273626,No,Male,60,UK,Oxfordshire,MEH
+90273630,No,Male,41,USA,Maine,N/A
+90273638,No,Female,27,USA ,Illinois ,JOY
+90273639,No,Male,?,Canada,British Columbia,DESPAIR
+90273643,No,I'd rather not say,39,Unites States,California,JOY
+90273644,No,Male,42,United States,Nebraska,MEH
+90273648,No,Male,40,US,NY,MEH
+90273652,No,Male,60,US,CA,N/A
+90273653,No,Male,38,United States of America,California,JOY
+90273656,No,Male,64,United States,Arizona,N/A
+90273659,No,Male,59,United States,CA,JOY
+90273662,N/A,Male,50,USA,MA,N/A
+90273666,No,Male,35,Usa,California,MEH
+90273668,No,Female,44,USA,West Virginia,JOY
+90273672,No,Male,49,United States of America,California,MEH
+90273673,No,Male,21,USA,MA,N/A
+90273678,No,Female,58,United States,Florida,MEH
+90273680,No,Male,34,USA,OR,JOY
+90273683,Yes,Female,21,The United States,"Harris County, Texas",JOY
+90273684,No,Male,38,USA,California,MEH
+90273686,No,Female,39,Canada,BC,N/A
+90273687,Yes,Female,11,North Carolina ,USA ,DESPAIR
+90273688,No,Male,31,united states,ohio,MEH
+90273689,No,Female,57,uk,Oxfordshire,N/A
+90273693,No,Male,36,USA,New York,DESPAIR
+90273695,No,Male,no,usa,ma,JOY
+90273696,No,Male,57,usa,nc,JOY
+90273698,No,Female,25,USA,Minnesota,DESPAIR
+90273699,No,Female,N/A,N/A,N/A,JOY
+90273702,No,Female,27,canada,Bc,MEH
+90273703,No,I'd rather not say,N/A,N/A,N/A,JOY
+90273704,No,Other,38,United States,Illinois,JOY
+90273709,No,Male,49,USA,CA,N/A
+90273717,N/A,Male,34,us,ma,JOY
+90273720,No,Male,42,United States,Ohio,N/A
+90273721,No,I'd rather not say,44,United States,Nevada,MEH
+90273723,No,Male,44,USA,CA,MEH
+90273730,No,Male,34,USA,Oregon,N/A
+90273732,No,Male,35,United States of America,Alabama,MEH
+90273737,No,Male,47,USA,Washington,JOY
+90273742,No,Female,40,United States,New Mexico,N/A
+90273744,Yes,Male,49,USA,TX,JOY
+90273746,No,Male,52,united states,oregon,N/A
+90273755,No,Male,34,usa,philadelphia,JOY
+90273761,No,Male,50,Usa,Colorado,N/A
+90273762,No,Male,40,United States,MN,MEH
+90273763,Yes,Female,51,Unied States,Colorado,N/A
+90273766,Yes,I'd rather not say,33,United States,Kentucky,JOY
+90273767,N/A,Female,50,USA,HI,JOY
+90273772,No,Male,51,Netherlands,South Holland,JOY
+90273789,N/A,Male,69,USA,MA,MEH
+90273794,N/A,Male,38,Canada,BC,N/A
+90273795,No,Female,44,Canada,Alberta,MEH
+90273801,No,Male,69,USA,Washington,MEH
+90273803,No,Female,47,usa,ny,N/A
+90273806,No,Male,23,UK,Derbyshire,N/A
+90273808,No,Male,44,germany,hesse,N/A
+90273811,Yes,Female,9,usa,va,N/A
+90273819,No,Male,41,United States,California,N/A
+90273826,Yes,Female,32,United States ,Pennsylvania ,N/A
+90273828,No,Female,39,USA,PA,MEH
+90273832,No,Male,25,usa,pa,JOY
+90273834,No,Female,47,USA,WA,JOY
+90273836,No,Male,68,USA,"Massachusetts, Plymouth county",MEH
+90273839,No,Male,41,USA,Washington,JOY
+90273840,No,Female,54,us,hi,MEH
+90273844,Yes,Female,11,Usa,Co,JOY
+90273846,No,Female,37,USA,CA,MEH
+90273849,N/A,Male,43,US,Pennsylvania,N/A
+90273850,No,Male,49,USA,Cali,N/A
+90273851,No,Female,20,U.S.A.,Pennsylvania ,JOY
+90273853,No,Female,20,United States,New York,N/A
+90273857,No,Female,21,USA,New York,N/A
+90273858,No,Female,20,USA ,New York ,MEH
+90273861,No,Male,54,usa,california,N/A
+90273865,No,Male,35,United States,Pennsylvania,N/A
+90273866,No,Male,24,united states,vt,JOY
+90273871,No,Female,27,United States,VA,JOY
+90273881,No,Male,34,Canada,Ontario,MEH
+90273901,No,Male,21,United States of America,"CA, Alameda",MEH
+90273902,Yes,Male,48,United States,Utah,JOY
+90273906,No,Male,37,USA ,New York,N/A
+90273910,No,Male,46,US,FL,MEH
+90273914,No,Male,N/A,USA,New York,N/A
+90273915,Yes,Male,53,USA,California,JOY
+90273917,No,Female,52,USA,"Michigan, Shiawassee County",MEH
+90273923,No,Male,39,Canada,Newfoundland,N/A
+90273925,No,Male,20,United States,Missouri,MEH
+90273928,No,Male,72,USA,Ohio,N/A
+90273930,No,I'd rather not say,37,United States,Michigan,DESPAIR
+90273931,No,Male,44,United States,Virginia,JOY
+90273933,No,Male,39,United States of America,Indiana,MEH
+90273934,Yes,Female,6,United States,Colorado,MEH
+90273938,Yes,Female,10,Canada,Alberta,MEH
+90273941,No,Male,60,usa,mn,N/A
+90273942,No,Male,43,Usa,Kentucky,JOY
+90273945,Yes,Female,38,USA,Oregon,MEH
+90273953,No,Male,30,United States of America,PA,MEH
+90273954,Yes,Male,51,USA,Illinois,MEH
+90273955,No,Male,39,USA ,IL,JOY
+90273956,No,Male,45,United states,Oregon,JOY
+90273966,No,Male,55,usa,wisconsin,JOY
+90273971,N/A,Male,34,USA ,Idaho ada,JOY
+90273972,No,Male,35,United States,Pennsylvania,JOY
+90273974,Yes,Female,38,Usa,La,MEH
+90273975,No,Male,47,USA,MA,MEH
+90273980,No,Male,63,united states,maine,JOY
+90273984,No,Male,45,Canada,Alberta,JOY
+90273988,No,Other,50,Canada,Ontario,MEH
+90273989,No,Male,35,usa,ca,N/A
+90273990,No,Female,66,US,Massachusetts,MEH
+90273991,Yes,Female,10,Europe,America,DESPAIR
+90273998,No,Female,59,US,Florida,DESPAIR
+90274005,No,Female,39,USA ,Hawaii,MEH
+90274009,No,Male,58,USA,Washington,JOY
+90274014,No,Female,41,USA,"California, Alameda",MEH
+90274015,Yes,Female,68,USA,California,DESPAIR
+90274018,Yes,Female,28,USA,MA,N/A
+90274019,No,Male,38,USA,CA,N/A
+90274028,No,Male,37,USA ,California ,JOY
+90274032,No,Male,34,United States,Florida,N/A
+90274033,No,Male,45,Us,Az,MEH
+90274034,Yes,Female,36,usa,MN,MEH
+90274035,No,Female,71,USA,Arizona,MEH
+90274037,No,Female,12,us,mn,JOY
+90274040,Yes,Male,37,Canada,BC,N/A
+90274041,Yes,Male,33,US,VT,JOY
+90274046,No,Male,31,USA,AZ,N/A
+90274048,No,Male,32,USA,NY,MEH
+90274056,No,I'd rather not say,90,Earth,Sub Earth,MEH
+90274062,Yes,Male,33,Usa,North dakota,MEH
+90274064,No,Male,24,United States,Texas,MEH
+90274065,Yes,I'd rather not say,71,USA,CA,JOY
+90274070,No,Female,52,usa,virginia,JOY
+90274082,No,Female,60,USA ,Ga,N/A
+90274091,No,Male,58,USA,Ohio,JOY
+90274095,No,Male,46,United States,Nevada,MEH
+90274101,No,Female,34,USA,TX,MEH
+90274105,No,Male,42,Usa,Ca,MEH
+90274108,No,Male,N/A,United States,MO,MEH
+90274119,No,Male,48,united states,"alameda county, california",DESPAIR
+90274120,N/A,Female,27,USA,Oregon,JOY
+90274122,Yes,Female,43,United States,Washington,MEH
+90274125,Yes,Male,45,United Kingdom,Greater London,JOY
+90274128,No,Male,N/A,Canada,Ontario,MEH
+90274136,No,Male,31,United States,Georgia,N/A
+90274149,No,Female,60,U S,Ohio,JOY
+90274156,No,Male,54,USA,Texas ,JOY
+90274161,No,Male,53,United States,New York,MEH
+90274162,No,Female,32,United States of America,Minnesota,JOY
+90274173,No,Female,24,United States of America ,Ohio,DESPAIR
+90274188,No,Male,31,canada,bc,JOY
+90274189,No,Male,39,USA,Washington,MEH
+90274195,Yes,Male,13,america,massachusetts,N/A
+90274198,No,Female,51,Usa,Ny,JOY
+90274201,No,Male,60,u.s.,WA,MEH
+90274213,No,Male,40,usa,nm,N/A
+90274223,No,Male,41,USA,Maryland,JOY
+90274224,N/A,Male,41,Canada,AB,N/A
+90274233,No,Male,33,United States ,Massachusetts,JOY
+90274234,No,Male,48,US,VA,JOY
+90274237,No,Male,20,United States,Maine,N/A
+90274240,No,Female,32,United States,Pennsylvania,JOY
+90274241,No,Female,33,United States,Illinois,JOY
+90274245,No,Male,46,USA,MN,MEH
+90274247,No,N/A,37,USA,Ohio,N/A
+90274248,No,Female,26,US,WA,MEH
+90274250,Yes,Male,49,United States,Iowa,JOY
+90274262,No,Male,40,usa,wa,N/A
+90274264,Yes,Male,40,USA ,"WV, Kanawha County ",JOY
+90274268,No,Male,45-55,US,NC,JOY
+90274272,No,Male,34,Usa,Florida,MEH
+90274273,No,Male,36,United States,Virginia,MEH
+90274275,Yes,Male,41,United States,California,N/A
+90274278,No,Male,39,United States,VA,N/A
+90274287,Yes,Male,39,USA,Illinois,JOY
+90274289,No,Female,40,USA ,Pennsylvania ,MEH
+90274293,Yes,Female,42,us,michigan,N/A
