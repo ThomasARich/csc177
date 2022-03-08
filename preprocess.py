@@ -2,11 +2,13 @@ import csv
 from statistics import mean, median, stdev
 from sklearn.decomposition import TruncatedSVD
 
-num_rows = 0
+out_rows = 5                                                        # Modify this value to change number of rows output.
+row = 1
 num_dup = 0
 num_na = 0
-curr_row = []
-# candy_list = [][]
+
+candy_arr = [['']*7]*out_rows                                       # Declares array with 7 columns and out_rows # of rows.
+
 id_list = []
 med_list = []
 
@@ -15,35 +17,38 @@ with open('candyhierarchy2017.csv','r') as candy_in:                # Set candyh
     csv_in = csv.reader(candy_in)
     csv_out = csv.writer(candy_out)
 
-    row = next(csv_in)                                              # Writes the first 7 headers to the output file.
-    for i in range(7):
-        curr_row.append(row[i])
-    csv_out.writerow(curr_row)
+    curr_row = next(csv_in)                                         # Writes the first 7 headers to the output file.
+    for col in range(7):
+        candy_arr[0][col] = curr_row[col]
+    csv_out.writerow(candy_arr[0])
 
-    while num_rows < 500:                                           # Replace value with number of lines desired in output file.
-        curr_row.clear()
+    while row < out_rows:
         # Preprocessing occurs here.
-        row = next(csv_in)
+        curr_row = next(csv_in)
 
-        if row[0] in id_list:                                       # If there are any duplicate user IDs, the row is skipped and the number of duplicates is updated.
+        for i in range(row):                                        # If there are any duplicate user IDs, the row is skipped and the number of duplicates is updated.
+            if curr_row[0] == candy_arr[i][0]:
+                print(candy_arr[i][0])
+                num_dup += 1
+        if curr_row[0] in id_list:                                  # If there are any duplicate user IDs, the row is skipped and the number of duplicates is updated.
             num_dup += 1
         else:
-            for i in range(7):
-                if not row[i]:
-                    curr_row.append('N/A')
+            for col in range(7):
+                if not curr_row[col]:
+                    candy_arr[row][col] = 'N/A'
                     num_na += 1
                 else:
-                    curr_row.append(row[i])
-                    if i >= 6:
-                        if row[i] == 'DESPAIR':
+                    candy_arr[row][col] = curr_row[col]
+                    if col >= 6:
+                        if curr_row[col] == 'DESPAIR':
                             med_list.append(0)
-                        elif row[i] == 'MEH':
+                        elif curr_row[col] == 'MEH':
                             med_list.append(1)
-                        elif row[i] == 'JOY':
+                        elif curr_row[col] == 'JOY':
                             med_list.append(2)                      # Outliers are deleted because anything that doesn't match the three supported values are ignored.
-            csv_out.writerow(curr_row)                              # Data written to output file.
-            id_list.append(row[0])
-            num_rows += 1
+            csv_out.writerow(candy_arr[row])                        # Data written to output file.
+            id_list.append(curr_row[0])
+            row += 1
 
 candy_out.close()                                                   # Close output file.
 candy_in.close()                                                    # Close input file.
@@ -52,8 +57,9 @@ men = mean(med_list)
 med = median(med_list)                                              # Calculate median value.
 sdev = stdev(med_list)
 svd = TruncatedSVD()
-svd.fit(med_list)
-# transformed = svd.transform(med_list)
+# svd.fit(candy_arr)
+# transformed = svd.transform(candy_arr)
+# print(candy_arr)
 
 print("Number of duplicate entries removed: " + str(num_dup))
 print("Number of missing values: " + str(num_na))
@@ -62,7 +68,7 @@ print('Median opinion of 100 Grand Bars: ', end = '')
 if med == 0:                                                        # NOTE: Hardcoded for 100 Grand Bar. Can be made dynamic if neccesary.
     print('0 (DESPAIR)')
 elif med == 1:
-    print('0 (MEH)')
+    print('1 (MEH)')
 elif med == 2:
     print('2 (JOY)')
 else:
