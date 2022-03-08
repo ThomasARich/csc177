@@ -1,10 +1,12 @@
 import csv
-from statistics import median
+from statistics import mean, median, stdev
+from sklearn.decomposition import TruncatedSVD
 
 num_rows = 0
 num_dup = 0
 num_na = 0
 curr_row = []
+# candy_list = [][]
 id_list = []
 med_list = []
 
@@ -46,16 +48,23 @@ with open('candyhierarchy2017.csv','r') as candy_in:                # Set candyh
 candy_out.close()                                                   # Close output file.
 candy_in.close()                                                    # Close input file.
 
+men = mean(med_list)
 med = median(med_list)                                              # Calculate median value.
+sdev = stdev(med_list)
+svd = TruncatedSVD()
+svd.fit(med_list)
+# transformed = svd.transform(med_list)
 
 print("Number of duplicate entries removed: " + str(num_dup))
 print("Number of missing values: " + str(num_na))
+print('Numeric Mean opinion of 100 Grand Bars: ' + str(men))
 print('Median opinion of 100 Grand Bars: ', end = '')
 if med == 0:                                                        # NOTE: Hardcoded for 100 Grand Bar. Can be made dynamic if neccesary.
-    print('DESPAIR')
+    print('0 (DESPAIR)')
 elif med == 1:
-    print('MEH')
+    print('0 (MEH)')
 elif med == 2:
-    print('JOY')
+    print('2 (JOY)')
 else:
     print('UNDEFINED')
+print('Numeric standard deviation of 100 Grand Bars opinion: ' + str(sdev))
