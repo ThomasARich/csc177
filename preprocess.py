@@ -26,10 +26,6 @@ with open('candyhierarchy2017.csv','r') as candy_in:                # Set candyh
         # Preprocessing occurs here.
         curr_row = next(csv_in)
 
-        for i in range(row):                                        # If there are any duplicate user IDs, the row is skipped and the number of duplicates is updated.
-            if curr_row[0] == candy_arr[i][0]:
-                print(candy_arr[i][0])
-                num_dup += 1
         if curr_row[0] in id_list:                                  # If there are any duplicate user IDs, the row is skipped and the number of duplicates is updated.
             num_dup += 1
         else:
