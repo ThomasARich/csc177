@@ -78,15 +78,9 @@ df.to_csv('candy_out.csv')
 
 men = mean(med_list)
 med = median(med_list)                                              # Calculate median value.
-sdev = stdev(med_list)
-svd = TruncatedSVD()
-# svd.fit(candy_arr)
-# transformed = svd.transform(candy_arr)
-# print(candy_arr)
 
 print("Number of duplicate entries removed: " + str(num_dup))
 print("Number of missing values: " + str(num_na))
-print('Numeric Mean opinion of 100 Grand Bars: ' + str(men))
 print('Median opinion of 100 Grand Bars: ', end = '')
 if med == 0:                                                        # NOTE: Hardcoded for 100 Grand Bar. Can be made dynamic if neccesary.
     print('0 (DESPAIR)')
@@ -96,4 +90,3 @@ elif med == 2:
     print('2 (JOY)')
 else:
     print('UNDEFINED')
-print('Numeric standard deviation of 100 Grand Bars opinion: ' + str(sdev))
