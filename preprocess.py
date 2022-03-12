@@ -1,8 +1,9 @@
 import csv
 from statistics import mean, median, stdev
 from sklearn.decomposition import TruncatedSVD
+import pandas as pd
 
-out_rows = 5                                                        # Modify this value to change number of rows output.
+out_rows = 50                                                      # Modify this value to change number of rows output.
 row = 1
 num_dup = 0
 num_na = 0
@@ -46,8 +47,34 @@ with open('candyhierarchy2017.csv','r') as candy_in:                # Set candyh
             id_list.append(curr_row[0])
             row += 1
 
+
 candy_out.close()                                                   # Close output file.
 candy_in.close()                                                    # Close input file.
+
+df = pd.read_csv('candy_out.csv')
+df["Q4: COUNTRY"] = df["Q4: COUNTRY"].str.replace("usa", "USA")
+df["Q4: COUNTRY"] = df["Q4: COUNTRY"].str.replace("us", "USA")
+df["Q4: COUNTRY"] = df["Q4: COUNTRY"].str.replace("US", "USA")
+df["Q4: COUNTRY"] = df["Q4: COUNTRY"].str.replace("USA ", "USA")
+df["Q4: COUNTRY"] = df["Q4: COUNTRY"].str.replace("USAUSAUSA", "USA")
+df["Q4: COUNTRY"] = df["Q4: COUNTRY"].str.replace("USAA", "USA")
+df["Q4: COUNTRY"] = df["Q4: COUNTRY"].str.replace("Usa", "USA")
+df["Q4: COUNTRY"] = df["Q4: COUNTRY"].str.replace("u.s.a.", "USA")
+df["Q4: COUNTRY"] = df["Q4: COUNTRY"].str.replace("U.S.A.", "USA")
+df["Q4: COUNTRY"] = df["Q4: COUNTRY"].str.replace("u.s.", "USA")
+df["Q4: COUNTRY"] = df["Q4: COUNTRY"].str.replace("U S", "USA")
+df["Q4: COUNTRY"] = df["Q4: COUNTRY"].str.replace("america", "USA")
+df["Q4: COUNTRY"] = df["Q4: COUNTRY"].str.replace("Murica", "USA")
+df["Q4: COUNTRY"] = df["Q4: COUNTRY"].str.replace("United States", "USA")
+df["Q4: COUNTRY"] = df["Q4: COUNTRY"].str.replace("United staes", "USA")
+df["Q4: COUNTRY"] = df["Q4: COUNTRY"].str.replace("united states", "USA")
+df["Q4: COUNTRY"] = df["Q4: COUNTRY"].str.replace("The United States", "USA")
+df["Q4: COUNTRY"] = df["Q4: COUNTRY"].str.replace("unhinged states", "USA")
+df["Q4: COUNTRY"] = df["Q4: COUNTRY"].str.replace("United States of America", "USA")
+df["Q4: COUNTRY"] = df["Q4: COUNTRY"].str.replace("canada", "Canada")
+df["Q4: COUNTRY"] = df["Q4: COUNTRY"].str.replace("uk", "United Kingdom")
+df["Q4: COUNTRY"] = df["Q4: COUNTRY"].str.replace("UK", "United Kingdom")
+df.to_csv('candy_out.csv')
 
 men = mean(med_list)
 med = median(med_list)                                              # Calculate median value.
