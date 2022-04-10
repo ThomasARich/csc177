@@ -36,6 +36,10 @@ sc = StandardScaler()
 x_train = sc.fit_transform(x_train)
 x_test = sc.transform(x_test)
 
+pre = preprocessing.LabelEncoder()
+y_train = pre.fit_transform(y_train)
+y_test = pre.fit_transform(y_test)
+
 # training the machine learning model
 from sklearn.linear_model import LinearRegression
 
