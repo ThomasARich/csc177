@@ -6,9 +6,16 @@ from sklearn.tree import export_graphviz
 from six import StringIO  
 from IPython.display import Image  
 import pydotplus
-from sklearn.metrics import accuracy_score, confusion_matrix
+from sklearn.metrics import accuracy_score, classification_report, confusion_matrix
 from sklearn.naive_bayes import GaussianNB
-from sklearn.svm import SVC 
+from sklearn.svm import LinearSVC
+from sklearn.preprocessing import StandardScaler
+from sklearn.neighbors import KNeighborsClassifier
+# Suppress warnings from Sklearn
+from warnings import simplefilter
+from sklearn.exceptions import ConvergenceWarning, UndefinedMetricWarning
+simplefilter("ignore", category=ConvergenceWarning)
+simplefilter("ignore", UndefinedMetricWarning)
 
 dataset = pd.read_csv('Churn_Modelling.csv')
 
@@ -38,7 +45,30 @@ clf_NB.fit(x,y)
 NB_pred = clf_NB.predict(x_test)
 
 print('Accuracy on test data is %.2f' % (accuracy_score(y_test, NB_pred)))
+print('-----------------------------')
 
-# SVM Classifier - TBD
+# SVM Classifier
+svclassifier = LinearSVC(random_state=0, tol=1e-5)
+svclassifier.fit(x_train, y_train) 
+y_pred = svclassifier.predict(x_test)
+print('SVM Confusion Matrix')
+print(confusion_matrix(y_test,y_pred))
+print('SVM Classification Report')
+print(classification_report(y_test,y_pred))
+print('-----------------------------')
 
-# KNN Classifier - TBD
+# KNN Classifier
+scaler = StandardScaler()
+scaler.fit(x_train)
+
+x_train = scaler.transform(x_train)
+x_test = scaler.transform(x_test)
+knnclass = KNeighborsClassifier(n_neighbors=5)
+knnclass.fit(x_train, y_train)
+
+y_pred = knnclass.predict(x_test)
+
+print('KNN Confusion Matrix')
+print(confusion_matrix(y_test,y_pred))
+print('KNN Classification Report')
+print(classification_report(y_test,y_pred))
